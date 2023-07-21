@@ -1,0 +1,164 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   scroll-behavior: smooth;
+   scroll-snap-align:initial;
+}
+.navto{
+    background-color: rgb(255, 255, 255);
+}
+.logo:hover{
+    -webkit-box-reflect: below;
+}
+
+.pnam{
+    color: rgb(65, 135, 196);
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    color: rgb(41, 211, 41);
+}
+.pshow{
+    width: 45px;
+    border-radius: 80px;
+    border: 2px rgb(255, 255, 255) solid;
+}
+.poj{
+    color: rgb(0, 0, 0);
+}
+.cy{
+    margin-top:90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 30px;
+}
+.e{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 236, 23);
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    from{color: rgb(255, 255, 21);}
+    to{color: rgb(93, 216, 103);}
+}
+
+.p{
+    border-radius: 90%;
+    border: 1px rgb(131, 17, 66) solid;
+}
+.pname{
+    font-family: "Roboto";
+    font-size: large;
+    font-weight: 500;
+    color: rgb(19, 69, 178);
+}
+.pnum{
+    animation: bli 2s infinite;
+}
+@keyframes bli{
+    0%{color: rgb(194, 38, 153)}
+    50%{color: blue;}
+    100%{color: black;}
+    0%{color: rgb(188, 52, 145);}
+}
+.pro{
+    border-radius: 25px;
+    position: relative;
+  animation: example 2s ;
+    cursor: pointer;
+    transition: 2s;
+}
+.pro:hover{
+    transform: rotateY(360deg);
+}
+@keyframes example{
+    0%{left: 600px;top: -150px;}
+    40%{left: 0px;top: -150px;}
+    60%{left: 0px;top: 0px;transform: rotateY(180deg);}
+}
+.one{
+    margin: 0px;
+    padding: 7px;
+    background-color: rgb(192, 241, 154);
+    
+}
+.two{
+    margin: 0px;
+    padding: 7px;
+    background-color: rgb(228, 157, 221);
+}
+.three{
+    margin: 0px;
+    padding: 7px;
+    background-color: rgb(182, 254, 254);
+}
+.pic-a{
+    width: 40px;
+   
+}
+.lin{
+    background-color: rgb(2, 147, 0);
+    height: 1px;
+}
+.box{
+    border:0;
+    height: 290px;
+    
+}
+.box:hover{
+    background-color: rgb(255, 99, 14);
+    color: white;
+    font-style: italic;
+    border-radius: 10px;
+}
+.hd{
+    border: 1px rgb(255, 254, 253) solid;
+    padding: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(255, 99, 14);
+    font-style: italic;
+    font-weight: bold;
+    border: 1px white solid;
+}
+.hd:hover{
+    color: aliceblue;
+}
+.sc{
+    padding: 9px;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+.bot{
+    background:linear-gradient(to right, rgb(234, 247, 117),rgb(99, 242, 99));
+}
+.loa{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.det{
+    font-size: 12px;
+}
+.ck{
+    padding: 10px;
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+.pic{
+    transition: width 2s, height 2s, transform 1s;
+}
+.pic:hover{
+    
+  transform: rotateY(360deg);
+}
+.one:hover,.two:hover,.three:hover{
+    background-color: rgb(255, 99, 14);
+    color: black;
+}
